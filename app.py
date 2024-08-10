@@ -1,13 +1,13 @@
 from fastai.vision.all import *
 import gradio as gr
 
-import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+#import pathlib
+#temp = pathlib.PosixPath
+#pathlib.PosixPath = pathlib.WindowsPath
 
 learn = load_learner('model.pkl')
 
-pathlib.PosixPath = temp
+#pathlib.PosixPath = temp
 
 im_bee = Image.open('bee.jpg')
 im_wasp = Image.open('wasp.jpg')
