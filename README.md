@@ -10,4 +10,5 @@ pinned: false
 license: apache-2.0
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Vision model that identifies images as bees or wasps.
+Deployed at https://huggingface.co/spaces/rishika-bose/bee 
