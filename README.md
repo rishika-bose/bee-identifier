@@ -10,5 +10,6 @@ pinned: false
 license: apache-2.0
 ---
 
-Vision model that identifies images as bees or wasps.
+Vision model that identifies images as bees or wasps. Built with fastai, gradio and huggingface spaces.
+
 Deployed at https://huggingface.co/spaces/rishika-bose/bee 
